@@ -1,5 +1,5 @@
-* ALX System Engineering DevOps - 0x04. 
-** Loops, Conditions, and Parsing
+*ALX System Engineering DevOps - 0x04. 
+**Loops, Conditions, and Parsing
 ** Overview
 This repository contains solutions to the tasks related to loops, conditions, and parsing in the context of ALX System Engineering DevOps. The tasks cover various scripting challenges using Bash.
 
