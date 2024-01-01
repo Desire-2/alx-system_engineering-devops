@@ -1,26 +1,23 @@
-# Decentralized Web Infrastructure
+# Secure and Monitored Web Infrastructure
 
-![Illustration of a distributed web infrastructure](1-distributed_web_infrastructure.png)
-
+![Illustration of a secured and monitored infrastructure](2-secured_and_monitored_web_infrastructure.PNG)
 
 ## Overview
 
-This distributed web infrastructure aims to alleviate traffic on the primary server by distributing some of the load to a replica server, managed by a load balancer responsible for balancing the workload between the primary and replica servers.
+This web infrastructure consists of three servers, emphasizing security, monitoring, and the facilitation of encrypted traffic.
 
 ## Key Details About This Setup
 
-+ **Load Balancer Distribution Algorithm:** The HAProxy load balancer employs the *Round Robin* distribution algorithm. This algorithm cycles through each server behind the load balancer based on their weights, ensuring an equitable distribution of processing time. It's a dynamic algorithm allowing adjustments to server weights on the fly.
++ **Firewalls' Purpose:** Firewalls act as a protective barrier for the web servers, preventing unwanted and unauthorized access. Positioned between the internal and external networks, they block incoming traffic that matches predefined criteria, enhancing network security.
 
-+ **Load-Balancer-Enabled Setup:** The HAProxy load balancer facilitates an *Active-Passive* setup instead of an *Active-Active* one. In an *Active-Active* configuration, workloads are distributed across all nodes to prevent overloading a single node. Conversely, in an *Active-Passive* setup, not all nodes are constantly active, and the passive node becomes active if the preceding one is inactive.
++ **SSL Certificate's Role:** SSL certificates encrypt traffic between web servers and the external network, thwarting potential man-in-the-middle attacks and preventing network sniffers from extracting sensitive information. These certificates ensure privacy, integrity, and identification.
 
-+ **Primary-Replica Database Cluster Operation:** In a *Primary-Replica* (*Master-Slave*) setup, one server serves as the *Primary* handling read/write requests, while the other acts as a *Replica* capable of handling only read requests. Data synchronization occurs when the *Primary* server executes a write operation.
-
-+ **Role Difference Between Primary and Replica Nodes:** The *Primary* node manages all write operations for the site, while the *Replica* node processes read operations, reducing read traffic on the *Primary* node.
++ **Monitoring Clients' Function:** Monitoring clients are instrumental in overseeing both servers and the external network. They analyze server performance, measure overall health, and promptly alert administrators to deviations from expected performance. Monitoring tools provide key metrics, automatically test server accessibility, gauge response times, and detect issues such as corrupt/missing files, security vulnerabilities, or violations.
 
 ## Challenges in This Infrastructure
 
-+ **Multiple Single Points of Failure (SPOF):** Several SPOFs exist; for instance, if the Primary MySQL database server fails, the entire site loses the ability to make changes. The server housing the load balancer and the application server connecting to the primary database server are also potential SPOFs.
++ **SSL Termination at Load Balancer Level:** SSL termination at the load balancer could leave traffic between the load balancer and web servers unencrypted, potentially compromising the security of this segment of the communication.
 
-+ **Security Concerns:** Data transmitted over the network lacks encryption using an SSL certificate, posing a risk of unauthorized access. Additionally, the absence of firewalls on any server leaves no means to block unauthorized IPs.
++ **Single MySQL Server as a Point of Concern:** The presence of a single MySQL server raises scalability issues and introduces a potential single point of failure for the entire web infrastructure.
 
-+ **Lack of Monitoring:** Absence of server monitoring tools means there is no way to ascertain the real-time status of each server, leaving potential issues undetected.
++ **Uniform Components on Servers:** Servers with identical components may contend for resources like CPU, memory, and I/O, leading to suboptimal performance. Additionally, this uniform setup complicates scalability and makes it challenging to pinpoint the source of problems. A diversified configuration could offer better resource allocation and scalability options.
