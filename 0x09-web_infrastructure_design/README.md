@@ -59,6 +59,7 @@ Read or watch:
 - Explain specifics about the infrastructure and identify issues (SPOF, Security issues, No monitoring).
 
 [View Diagram](https://github.com/Desire-2/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/1-distributed_web_infrastructure.md)
+[GitHub Link](https://github.com/Desire-2/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/1-distributed_web_infrastructure.md)
 
 ### Task 2: Secured and monitored web infrastructure
 - Design a three-server web infrastructure hosting www.foobar.com with security measures.
