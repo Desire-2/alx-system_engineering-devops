@@ -57,7 +57,7 @@ Read or watch:
 - Components: 2 servers, 1 web server (Nginx), 1 application server, 1 load balancer (HAproxy), 1 set of application files (code base), 1 database (MySQL).
 - Explain specifics about the infrastructure and identify issues (SPOF, Security issues, No monitoring).
 
-[View Diagram](https://github.com/Desire-2/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/1-distributed_web_infrastructure.md)
+[View Diagram](https://drive.google.com/drive/u/0/folders/1LAYC0YcJmRu5Jom4K_SkQcMFoTgU53hh)
 [GitHub Link](https://github.com/Desire-2/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/1-distributed_web_infrastructure.md)
 
 ### Task 2: Secured and monitored web infrastructure
