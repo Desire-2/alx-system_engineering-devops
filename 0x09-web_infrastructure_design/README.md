@@ -5,7 +5,6 @@
 This project focuses on designing various web infrastructures, exploring concepts such as DNS, monitoring, web servers, network basics, load balancers, and servers. The goal is to develop a deeper understanding of these components and their interactions in creating robust and scalable web environments.
 
 ## Team Members
-- Sylvain Kalache
 - Desire Bikorimana
 
 ## Project Timeline
