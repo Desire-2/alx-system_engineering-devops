@@ -1,6 +1,6 @@
 # Secure and Monitored Web Infrastructure
 
-![Illustration of a secured and monitored infrastructure](2-secured_and_monitored_web_infrastructure.PNG)
+![Illustration of a secured and monitored infrastructure](2-secured_and_monitored_web_infrastructure.png)
 
 ## Overview
 
