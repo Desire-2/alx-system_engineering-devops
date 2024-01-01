@@ -75,9 +75,6 @@ Read or watch:
 [View Diagram](https://drive.google.com/drive/u/0/folders/1LAYC0YcJmRu5Jom4K_SkQcMFoTgU53hh)
 [GitHub Link](https://github.com/Desire-2/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/3-scale_up.md)
 
-## Quiz Questions
-Great! You've completed the quiz successfully! Keep going!
-
 ## Copyright - Plagiarism
 - Plagiarism is strictly forbidden.
 - Solutions for tasks must be original and developed independently.
