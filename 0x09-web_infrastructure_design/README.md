@@ -57,7 +57,7 @@ Read or watch:
 - Components: 2 servers, 1 web server (Nginx), 1 application server, 1 load balancer (HAproxy), 1 set of application files (code base), 1 database (MySQL).
 - Explain specifics about the infrastructure and identify issues (SPOF, Security issues, No monitoring).
 
-[View Diagram](https://drive.google.com/drive/u/0/folders/1LAYC0YcJmRu5Jom4K_SkQcMFoTgU53hh)
+[View Diagram](https://drive.google.com/file/d/1gECPH1gbjwmTSJUscCyDBrB9QBgZNhi2/view?usp=sharing)
 [GitHub Link](https://github.com/Desire-2/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/1-distributed_web_infrastructure.md)
 
 ### Task 2: Secured and monitored web infrastructure
@@ -65,14 +65,14 @@ Read or watch:
 - Components: 3 firewalls, 1 SSL certificate for HTTPS, 3 monitoring clients.
 - Explain specifics about the infrastructure and identify issues (SSL termination at the load balancer, Single MySQL server for writes, Uniform components on servers).
 
-[View Diagram](https://drive.google.com/drive/u/0/folders/1LAYC0YcJmRu5Jom4K_SkQcMFoTgU53hh)
+[View Diagram](https://drive.google.com/file/d/1R9VbcjpyOjHWc3LiYHYGVeKf42tXWlI4/view?usp=sharing)
 [GitHub Link](https://github.com/Desire-2/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure.md)
 
 ### Task 3: Scale up (Advanced)
 - Add components to the web infrastructure, including a server, load balancer (HAproxy), and separate servers for web server, application server, and database.
 - Explain the rationale behind each addition.
 
-[View Diagram](https://drive.google.com/drive/u/0/folders/1LAYC0YcJmRu5Jom4K_SkQcMFoTgU53hh)
+[View Diagram](https://drive.google.com/file/d/1oGJgy2zSD13ey69DCXsP-NbXzbIYQHHw/view?usp=sharing)
 [GitHub Link](https://github.com/Desire-2/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/3-scale_up.md)
 
 ## Copyright - Plagiarism
