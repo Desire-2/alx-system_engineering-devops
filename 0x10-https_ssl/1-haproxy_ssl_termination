@@ -37,14 +37,14 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 
-frontend nimasolutions.tech
+frontend aiconvirse.tech
         bind 0:80
-        bind 0:443 ssl crt /etc/ssl/private/nimasolutions.tech.tech.pem
+        bind 0:443 ssl crt /etc/ssl/private/aiconvirse.tech.tech.pem
         http-request redirect scheme https code 301 unless { ssl_fc }
         option forwardfor
         default_backend nimasolutions.tech_backend
 
-backend nimasolutions.tech_backend
+backend aiconverse.tech_backend
         balance roundrobin
         server 64820-web-01 54.236.45.28 check
         server 64820-web-02 52.3.241.77 check
