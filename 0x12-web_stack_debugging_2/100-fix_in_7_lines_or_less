@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+service nginx stop
+sed -i 's/user .*/user nginx/g' /etc/nginx/nginx.conf
+nginx -g 'daemon off'
